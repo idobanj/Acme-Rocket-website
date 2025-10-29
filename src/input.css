@@ -1,0 +1,12 @@
+/** @format */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ensure smooth scrolling for anchor links; added because the Tailwind
+	`scroll-smooth` utility wasn't present in the compiled output in this
+	project. This provides a reliable fallback. */
+html {
+    scroll-behavior: smooth;
+}
