@@ -1,0 +1,20 @@
+{
+    "html.format.wrapAttributes": "aligned",
+    "html.format.wrapLineLength": 80,
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 80,
+    "html.format.extraLiners": "",
+    "html.format.indentInnerHtml": true,
+    "html.format.maxPreserveNewLines": 1,
+    "html.format.preserveNewLines": true,
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "prettier.printWidth": 80,
+    "prettier.singleAttributePerLine": true,
+    "html.format.endWithNewline": true,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features",
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true
+    }
+}
