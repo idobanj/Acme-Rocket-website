@@ -16,5 +16,6 @@
         "editor.defaultFormatter": "vscode.html-language-features",
         "editor.formatOnSave": true,
         "editor.formatOnType": true
-    }
+    },
+    "liveServer.settings.root": "/src"
 }
