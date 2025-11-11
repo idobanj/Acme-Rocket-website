@@ -616,10 +616,6 @@ video {
   width: 66.666667%;
 }
 
-.w-4\/6 {
-  width: 66.666667%;
-}
-
 .max-w-6xl {
   max-width: 72rem;
 }
@@ -852,11 +848,6 @@ html {
   .dark\:bg-black {
     --tw-bg-opacity: 1;
     background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
-  }
-
-  .dark\:bg-red-900 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(127 29 29 / var(--tw-bg-opacity, 1));
   }
 
   .dark\:text-indigo-300 {
