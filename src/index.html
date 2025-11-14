@@ -43,7 +43,7 @@
 
             <section
                 id="hero"
-                class="flex flex-col-reverse sm:flex-row p-6 items-center justify-around mb-12 md:pt-24"
+                class="flex flex-col-reverse sm:flex-row p-6 items-center justify-around mb-12 md:pt-24 widescreen:section-min-height tallscreen:section-min-height"
                 style="scroll-margin-top: 10rem">
                 <article class="sm:w-1/2">
                     <h2
@@ -76,7 +76,7 @@
 
             <section
                 id="rockets"
-                class="p-6 my-12"
+                class="p-6 my-12 widescreen:section-min-height tallscreen:section-min-height"
                 style="scroll-margin-top: 5rem">
                 <h2
                     class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
@@ -154,15 +154,15 @@
 
             <hr class="bg-black dark:white w-1/2 m-auto" />
 
-            <!-- Testimonial -->
+            <!-- Testimonial section-->
 
             <section
                 id="testimonials"
-                class="p-6 my-12"
+                class="p-6 my-12 widescreen:section-min-height tallscreen:section-min-height"
                 style="scroll-margin-top: 5rem">
                 <h2
                     class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
-                    Testimonials
+                    Testimonial
                 </h2>
                 <figure class="my-12">
                     <blockquote
@@ -222,9 +222,11 @@
 
             <hr class="bg-black dark:white w-1/2 m-auto" />
 
+            <!-- contact section -->
+
             <section
                 id="contact"
-                class="p-6 my-12"
+                class="p-6 my-12 widescreen:section-min-height tallscreen:section-min-height"
                 style="scroll-margin-top: 5rem">
                 <h2
                     class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
@@ -249,16 +251,16 @@
                         id="message"
                         cols="30"
                         rows="10"
-                        placeholder="Your Subject"
-                        placeholder="Your Subject"
-                        placeholder="Your Subject"
+                        placeholder="Type your Message here"
                         class="w-full text-black text-2xl sm:text-3xl p-3 rounded-xl dark:border-none shadow">
                     </textarea>
-                    <botton
-                        type="Sumbmit"
-                        class="bg-teal-700 hover:bg-teal-600 active:bg-teal-500 text-white p-3 w-48 rounded-xl dark:border-none shadow-xl text-center"
-                        >Sumbmit</botton
-                    >
+                    <a href="">
+                        <botton
+                            type="Sumbmit"
+                            class="bg-teal-700 hover:bg-teal-600 active:bg-teal-500 text-white p-3 w-48 rounded-xl dark:border-none shadow-xl text-center"
+                            >Sumbmit
+                        </botton>
+                    </a>
                 </form>
             </section>
         </main>
