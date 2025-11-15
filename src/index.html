@@ -17,13 +17,13 @@
                 </h1>
                 <div>
                     <button
-                        id="mobile-open-button"
-                        class="text-3xl sm:hidden focus:outline-none">
+                        id="hamburger-button"
+                        class="text-3xl md:hidden cursor-pointer">
                         &#9776;
                     </button>
 
                     <nav
-                        class="hidden sm:block space-x-8 text-xl"
+                        class="hidden md:block space-x-8 text-xl"
                         aria-label="main">
                         <a href="#rockets" class="hover:opacity-80"
                             >Our Rockets</a
@@ -36,6 +36,41 @@
                         >
                     </nav>
                 </div>
+            </section>
+
+            <section
+                id="mobile-menu"
+                class="absolute top-0 bg-black w-full text-5xl flex flex-col justify-center opacity-50">
+                <button class="text-7xl self-end px-6">&times</button>
+                <nav
+                    class="flex flex-col min-h-screen items-center py-8 text-3xl"
+                    aria-label="mobile">
+                    <a
+                        href="#hero"
+                        class="w-full text-center py-6 hover:opacity-90"
+                        >Home</a
+                    >
+                    <a
+                        href="#rockets"
+                        class="w-full text-center py-6 hover:opacity-90"
+                        >Our Rockets</a
+                    >
+                    <a
+                        href="#testimonials"
+                        class="w-full text-center py-6 hover:opacity-90"
+                        >Testimonials</a
+                    >
+                    <a
+                        href="#contact"
+                        class="w-full text-center py-6 hover:opacity-90"
+                        >Contact Us</a
+                    >
+                    <a
+                        href="#footer"
+                        class="w-full text-center py-6 hover:opacity-90"
+                        >Legal</a
+                    >
+                </nav>
             </section>
         </header>
         <main class="max-w-6xl mx-auto">
@@ -245,7 +280,7 @@
                         maxlength="60"
                         placeholder="Your Subject"
                         class="w-full text-black text-2xl sm:text-3xl p-3 rounded-xl dark:border-none shadow" />
-                    <label for="message">Message</label>
+                    <label for="message">Messages</label>
                     <textarea
                         name="message"
                         id="message"
@@ -254,13 +289,12 @@
                         placeholder="Type your Message here"
                         class="w-full text-black text-2xl sm:text-3xl p-3 rounded-xl dark:border-none shadow">
                     </textarea>
-                    <a href="">
-                        <botton
-                            type="Sumbmit"
-                            class="bg-teal-700 hover:bg-teal-600 active:bg-teal-500 text-white p-3 w-48 rounded-xl dark:border-none shadow-xl text-center"
-                            >Sumbmit
-                        </botton>
-                    </a>
+
+                    <botton
+                        type="Sumbmit"
+                        class="bg-teal-700 hover:bg-teal-600 active:bg-teal-500 text-white p-3 w-48 rounded-xl dark:border-none shadow-xl text-center cursor-pointer"
+                        >Sumbmit
+                    </botton>
                 </form>
             </section>
         </main>
