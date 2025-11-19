@@ -4,7 +4,7 @@
  */
 
 export default {
-  content: ['./src/**/*.{html,js}'],
+  content: ['./src/**/*.{html,js},./src/js/*.js'],
   theme: {
     extend: {
       screens: {
@@ -16,8 +16,11 @@ export default {
           '0%': { transform: 'scaleY(0)' },
           '80%': { transform: 'scaleY(1.2)' },
           '100%': { transform: 'scaleY(1)' },
-        }
-      }
+        },
+      },
+      animation: {
+        'open-menu': 'open-menu 0.5s ease-in-out forwards',
+      },
     },
   },
   plugins: [],
