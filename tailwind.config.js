@@ -4,7 +4,7 @@
  */
 
 export default {
-  content: ['./src/**/*.{html,js},./src/js/*.js'],
+  content: ['./src/**/*.{html,js}'],
   theme: {
     extend: {
       screens: {
